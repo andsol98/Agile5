@@ -29,7 +29,9 @@
                   <Component id="jButton1" max="32767" attributes="0"/>
                   <Component id="jLabel1" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace pref="317" max="32767" attributes="0"/>
+              <EmptySpace pref="141" max="32767" attributes="0"/>
+              <Component id="JoeBtn" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -39,7 +41,10 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="222" max="32767" attributes="0"/>
-              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="JoeBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -55,6 +60,14 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Agile5"/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="JoeBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Josiah&apos;s Button "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JoeBtnActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
